@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мультимедийная страница</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Интерактивная мультимедийная страница</h1>
+  </header>
+
+  <section id="video-section">
+    <h2>Видео</h2>
+    <video id="videoPlayer" width="600" controls>
+      <source src="video.mp4" type="video/mp4">
+      Ваш браузер не поддерживает видео.
+    </video>
+    <div class="controls">
+      <button id="playVideo">Плей/Пауза</button>
+      <button id="muteVideo">Включить/Выключить звук</button>
+    </div>
+  </section>
+
+  <section id="audio-section">
+    <h2>Аудио$Готлиб feat. SATS - У Детка</h2>
+    <audio id="audioPlayer" controls>
+      <source src="audio.mp3" type="audio/mpeg">
+      Ваш браузер не поддерживает аудио.
+    </audio>
+    <div class="controls">
+      <button id="playAudio">Плей/Пауза</button>
+      <button id="muteAudio">Включить/Выключить звук</button>
+    </div>
+  </section>
+
+  <section id="animation-section">
+    <h2>Анимация</h2>
+    <div id="animatedBox" class="box">Нажмите для анимации</div>
+    <button id="startAnimation">Запустить анимацию</button>
+  </section>
+    <footer>
+        <h1>completed by Palaguta Danil</h1>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
